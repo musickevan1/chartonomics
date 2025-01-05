@@ -1,0 +1,59 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+    
+    @layer base {
+      :root {
+        --primary: #2962ff;
+        --secondary: #0d47a1;
+        --accent: #00c853;
+        --background: #f5f7fa;
+        --text: #263238;
+        --chart-line: #2962ff;
+        --chart-fill: rgba(41, 98, 255, 0.1);
+      }
+      
+      body {
+        @apply bg-background text-text;
+        font-family: 'Inter', sans-serif;
+      }
+      
+      h1, h2, h3 {
+        font-family: 'Space Grotesk', sans-serif;
+      }
+      
+      h1 {
+        @apply text-5xl font-bold;
+      }
+      
+      h2 {
+        @apply text-4xl font-bold;
+      }
+      
+      h3 {
+        @apply text-2xl font-semibold;
+      }
+      
+      p {
+        @apply text-base leading-relaxed text-gray-600;
+      }
+    }
+    
+    @layer components {
+      .nav-link {
+        @apply text-gray-700 hover:text-primary transition-colors duration-200 font-medium;
+      }
+      
+      .btn-primary {
+        @apply bg-primary text-white px-8 py-3 rounded-lg hover:bg-secondary transition-all duration-200 font-semibold shadow-md hover:shadow-lg;
+      }
+      
+      .testimonial-card {
+        @apply bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200;
+      }
+      
+      .data-point {
+        @apply bg-white p-6 rounded-xl shadow-sm border border-gray-100;
+      }
+    }
