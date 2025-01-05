@@ -1,7 +1,8 @@
 
 # Chartonomics - Financial Data Visualization Platform
 
-![Chartonomics Screenshot](public/screenshot.png)
+![Chartonomics Screenshot](preview.jpg)
+![Chartonomics Screenshot](preview-2.jpg)
 
 Chartonomics is a modern financial data visualization platform designed to provide actionable insights for investors and financial analysts. The platform offers real-time data visualization, historical trend analysis, and comprehensive financial analytics for various asset classes including stocks, cryptocurrencies, and commodities.
 
