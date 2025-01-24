@@ -116,4 +116,4 @@
 
     For any inquiries or support, please contact:
     - Email: support@chartonomics.com
-    - Website: [www.chartonomics.com](https://www.chartonomics.com)
+
